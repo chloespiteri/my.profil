@@ -1,0 +1,125 @@
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #909bfb;
+  font-size : 32px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #7ab990;
+  font-size : 24px;
+  font-weight: 500;
+}
+
+p {
+  color: #8c8f9f;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 28px;
+}
+
+a {
+  text-decoration: none;
+  color:  #909cfb;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.container {
+  width: 1040px;
+  text-align: center;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.4);
+  width: 800px;
+  margin: 12px auto;
+}
+
+.btn-blue {
+  border: solid 1px #8d8f9f;
+  background: #8d8f9f;
+  color: white;
+  padding: 12px;
+  width: 120px;
+  border-radius: 8px;
+}
+
+.btn-blue:hover {
+  color: white;
+  background: #909cfb;
+  border:  solid 1px #909cfb;
+  transition: 0.5s;
+}
+
+/* ids */
+
+#profile-picture {
+  width: 232px;
+  height: 232px;
+  border-radius: 50%;
+}
+
+#social-media-list {
+  list-style: none;
+  padding: 0;
+}
+
+#social-media-list li {
+  display: inline;
+  font-size: 40px;
+
+}
+
+#social-media-list li :hover {
+  color: #8c8f9f;
+  transition: 0.5s;
+}
+
+#coding-img-card {
+  background-image: url(images/piano.jpeg);
+  background-position: center;
+}
+
+#coding-img-card h2 {
+  color: white;
+}
+
+#coding-img-card p {
+  color: black;
+  font-weight: bolder;
+}
+
+#word-green {
+  color: white;
+  font-size: 18px;
+  padding: 8px 20px 8px 20px;
+  background: #7ab990;
+  border-radius: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
